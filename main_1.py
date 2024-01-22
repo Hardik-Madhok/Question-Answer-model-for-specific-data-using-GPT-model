@@ -29,9 +29,7 @@ if button and (query):
         # st.success("Answer: "+prompt)
         answer = qa.generate_answer(prompt)
         st.success("Answer: "+answer)
-        options = st.radio(
-        'Are you satisfied with the response?',
-        ('Yes', 'No'))
+        
         
         # if 'No' in options:
         #     correctResponse = st.text_input("Please share the correct response")
